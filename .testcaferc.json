@@ -1,0 +1,12 @@
+{
+    "browsers": "chrome",
+    "src": "testcafe/**/fixtures/*-test.js",
+    "takeScreenshotsOnFails": true,
+    "screenshotPath": "./screenshots",
+    "screenshotPathPattern": "${DATE}_${TIME} ${FIXTURE}/test-${TEST_INDEX}-${TEST}/${FILE_INDEX}.png",
+    "skipJsErrors": true,
+    "appInitDelay": 5000,
+    "pageLoadTimeout": 20000,
+    "selectorTimeout": 20000,
+    "assertionTimeout": 20000
+}
